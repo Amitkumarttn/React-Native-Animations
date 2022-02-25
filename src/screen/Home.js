@@ -8,12 +8,13 @@ import ZoomInZoomOut from '../components/ZoomInZoomOut';
 import OpacityHideShow from '../components/OpacityHideShow';
 import RotateAnimation from '../components/RotateAnimation';
 import AnimatedButton from '../components/AnimatedButton';
+import WaveAnimation from '../components/WaveAnimation';
 
 
 const Home = () => {
   return (
     <View style={styles.container}>
-      <AnimatedButton />
+      <WaveAnimation />
     </View>
   );
 };
