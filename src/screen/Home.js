@@ -11,12 +11,13 @@ import AnimatedButton from '../components/AnimatedButton';
 import WaveAnimation from '../components/WaveAnimation';
 import CollapsibleHeader from '../components/CollapsibleHeader';
 import ScrollViewAnimatedHeader from '../components/ScrollviewWhatsappDPAnimation';
-
+import SwiperBackgroundColorChange from '../components/SwiperBackgroundColorChange';
+// import SwiperImage1 from '../components/Swiper-1';
 
 const Home = () => {
   return (
     <View style={styles.container}>
-      <ScrollViewAnimatedHeader />
+      <SwiperBackgroundColorChange />
     </View>
   );
 };
@@ -26,6 +27,6 @@ export default Home;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    width: '100%',
+    // width: '100%',
   },
 });
