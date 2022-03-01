@@ -9,12 +9,14 @@ import OpacityHideShow from '../components/OpacityHideShow';
 import RotateAnimation from '../components/RotateAnimation';
 import AnimatedButton from '../components/AnimatedButton';
 import WaveAnimation from '../components/WaveAnimation';
+import CollapsibleHeader from '../components/CollapsibleHeader';
+import ScrollViewAnimatedHeader from '../components/ScrollviewWhatsappDPAnimation';
 
 
 const Home = () => {
   return (
     <View style={styles.container}>
-      <WaveAnimation />
+      <ScrollViewAnimatedHeader />
     </View>
   );
 };

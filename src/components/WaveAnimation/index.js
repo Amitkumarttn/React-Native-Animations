@@ -35,8 +35,10 @@ const waveAnimation = () => {
   };
   return (
     <View style={styles.container}>
-      <Animated.Text style={[styles.wave, {transform: [{rotate}]}]}>✌️</Animated.Text>
-      <Button title='Press' onPress={animate} />
+      <Animated.Text style={[styles.wave, {transform: [{rotate}]}]}>
+        ✌️
+      </Animated.Text>
+      <Button title="Press" onPress={animate} />
     </View>
   );
 };
