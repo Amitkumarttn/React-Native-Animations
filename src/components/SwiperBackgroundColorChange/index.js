@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     height: height,
     width: height,
-    borderRadius: height,
+    // borderRadius: height,
   },
   indicatorContainer: {
     flex: 1,
